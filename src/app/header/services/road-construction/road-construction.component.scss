@@ -1,0 +1,72 @@
+.carousel-item {
+  height: 20rem;
+  background: #000;
+  color: #fff;
+  position: relative;
+}
+
+.cont {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 5%;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.bg-dark {
+  background: #fff !important;
+}
+
+.btn-light {
+  background: #fff !important;
+  border: none;
+  color: #d4a737 !important;
+}
+
+.btn-light:hover {
+  background: #d4a737 !important;
+  color: #fff !important;
+}
+
+.animation {
+  animation: slideMe 0.7s ease-in;
+}
+
+@keyframes slideMe {
+  0% {
+    transform: skewX(53deg) translate(-500px);
+  }
+
+  60% {
+    transform: translateX(0px);
+  }
+
+  100% {
+    transform: skewX(0deg);
+  }
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #fff !important;
+  cursor: pointer !important;
+  font-size: 20px !important;
+}
+
+.lib {
+  text-decoration: none;
+}
+
+.bg-success {
+  background: #d4a737 !important;
+}

@@ -1,0 +1,103 @@
+.carousel-item {
+  height: 20rem;
+  background: #000;
+  color: #fff;
+  position: relative;
+}
+
+.cont {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 5%;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.bg-dark {
+  background: #fff !important;
+}
+
+.btn-light {
+  background: #fff !important;
+  border: none;
+  color: #d4a737 !important;
+}
+
+.btn-light:hover {
+  background: #d4a737 !important;
+  color: #fff !important;
+}
+
+.animation {
+  animation: slideMe 0.7s ease-in;
+}
+
+@keyframes slideMe {
+  0% {
+    transform: skewX(53deg) translate(-500px);
+  }
+
+  60% {
+    transform: translateX(0px);
+  }
+
+  100% {
+    transform: skewX(0deg);
+  }
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #fff !important;
+  cursor: pointer !important;
+  font-size: 20px !important;
+}
+
+.img_class {
+  margin-top: -1.5rem;
+}
+
+.read-more {
+  margin-bottom: -1.9rem;
+}
+
+.intro {
+  height: 40px;
+  transition: all 0.5s cubic-bezier(0.48, -0.28, 0.41, 1.4);
+}
+
+.cardy p {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.cardy:hover p {
+  visibility: visible;
+  opacity: 1;
+}
+
+.cardy:hover {
+  cursor: pointer;
+}
+
+.cardy:hover .intro {
+  height: 100px;
+  background: #fff;
+  color: #000;
+  left: 0;
+  bottom: 0;
+}
+
+.cardy:hover .intro p {
+  color: #d4a737;
+}

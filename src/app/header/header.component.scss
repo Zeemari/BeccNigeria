@@ -1,0 +1,50 @@
+.bg-light {
+  background: #fff !important;
+}
+
+.width {
+  width: 100% !important;
+}
+
+.navigation {
+  padding: 0 2.5rem;
+  position: fixed;
+  width: 100%;
+  left: 0%;
+  right: 0%;
+  z-index: 100;
+}
+
+.start_style {
+  padding: 6px 6px;
+}
+
+.text-danger {
+  color: #d4a737 !important;
+  font-family: "Mulish";
+}
+
+.btn-danger {
+  background: #d4a737 !important;
+  border: none;
+}
+
+.text-dark {
+  color: #000 !important;
+  font-weight: 400;
+}
+
+.button {
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .navigation {
+    padding: 3px 3px;
+  }
+
+  .brand_logo {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}

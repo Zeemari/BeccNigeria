@@ -1,0 +1,24 @@
+.text-danger {
+  color: #3c5b45 !important;
+  font-family: "Mulish";
+}
+
+.support {
+  flex-direction: column;
+}
+
+.bg-success {
+  background: #bba05b !important;
+}
+
+.fs-6 {
+  font-size: 14px !important;
+}
+
+@media (max-width: 441.98px) {
+  .last-style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

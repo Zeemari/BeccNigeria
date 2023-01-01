@@ -1,0 +1,156 @@
+<!-- Carousel Section -->
+<section class="bg-light">
+  <div
+    id="carouselExampleControls"
+    class="carousel slide"
+    data-bs-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <!-- First Carousel Item -->
+      <div class="carousel-item active" data-interval="20">
+        <div
+          class="overlay-image"
+          style="
+            background-image: url(../../../assets/images/discussing-blueprint.jpg);
+          "
+        ></div>
+        <div class="container cont">
+          <div class="ms-5">
+            <h1 class="mb-3 fs-2 animation">Our Services</h1>
+
+            <!-- BreadCrumb -->
+            <nav aria-label="breadcrumb" class="text-light animation ms-2">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a [routerLink]="['/']" class="nav-link fs-5">Home</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  <span class="text-light fs-5">Services</span>
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Our Services Section -->
+<section class="bg-dark text-dark p-2 text-center">
+  <div class="container">
+    <div class="row">
+      <p class="mt-4">OUR SERVICES</p>
+      <h2 class="text-center mb-5">
+        We Provide Best <br />
+        Construction Services
+      </h2>
+
+      <!-- Industrial Construction -->
+      <div class="col-12 col-md-6 col-lg-4 mb-5">
+        <div class="bg-light border shadow border-light rounded text-dark mt-4">
+          <div class="row">
+            <img
+              src="../../../assets/images/troy-mortier-eKY6_9W_iqY-unsplash.jpg"
+              alt="user-profile"
+              class="img-fluid img_class"
+            />
+          </div>
+          <div class="card cardy border-light">
+            <div class="card-body text-center">
+              <div class="intro">
+                <h6 class="card-title fw-bold fs-5">
+                  INDUSTRIAL & COMMERCIAL SIZE CONSTRUCTION
+                </h6>
+                <p class="card-text mt-2 mb-3">
+                  This is an amazing app. Once I installed it, I was able to
+                  manage every aspect of successfully running my business
+                </p>
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-center read-more mt-5"
+              >
+                <a
+                  [routerLink]="['/services/industrial-construction']"
+                  role="button"
+                  class="btn btn-light p-2"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Site Planning -->
+      <div class="col-12 col-md-6 col-lg-4 mb-5">
+        <div class="bg-light border shadow border-light rounded text-dark mt-4">
+          <div class="row">
+            <img
+              src="../../../assets/images/discussing-blueprint.jpg"
+              alt="user-profile"
+              class="img-fluid img_class"
+            />
+          </div>
+          <div class="card cardy border-light">
+            <div class="card-body text-center">
+              <div class="intro">
+                <h6 class="card-title fw-bold fs-5">
+                  LANDSCAPE ARCHITECTURE & SITE PLANNING
+                </h6>
+                <p class="card-text mt-2 mb-3">
+                  This is an amazing app. Once I installed it, I was able to
+                  manage every aspect of successfully running my business
+                </p>
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-center read-more mt-5"
+              >
+                <a
+                  [routerLink]="['/services/site-planning']"
+                  role="button"
+                  class="btn btn-light p-2"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Road Construction -->
+      <div class="col-12 col-md-6 col-lg-4 mb-5">
+        <div class="bg-light border shadow border-light rounded text-dark mt-4">
+          <div class="row">
+            <img
+              src="../../../assets/images/excavator-action.jpg"
+              alt="user-profile"
+              class="img-fluid img_class"
+            />
+          </div>
+          <div class="card cardy border-light">
+            <div class="card-body text-center">
+              <div class="intro">
+                <h6 class="card-title fw-bold fs-5">ROAD CONSTRUCTION</h6>
+                <p class="card-text mt-2 mb-3">
+                  This is an amazing app. Once I installed it, I was able to
+                  manage every aspect of successfully running my business
+                </p>
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-center read-more mt-5"
+              >
+                <a
+                  [routerLink]="['/services/road-construction']"
+                  role="button"
+                  class="btn btn-light p-2"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
