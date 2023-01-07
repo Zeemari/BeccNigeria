@@ -3,7 +3,7 @@
   <nav class="navbar navbar-light navbar-expand-lg bg-light navigation">
     <div class="container-fluid p-1">
       <a [routerLink]="['']" class="navbar-brand brand_logo">
-        <span class="text-danger lead bold fw-bold">B.E.C.C</span>
+        <span class="text-danger lead bold fw-bold fs-3">B.E.C.C</span>
       </a>
 
       <button
@@ -19,8 +19,8 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mt-1 mb-2">
-          <li class="nav-item me-3">
+        <ul class="navbar-nav ms-auto list-style mt-1 mb-2">
+          <li class="nav-item me-3 Mulish">
             <a
               class="nav-link text-dark"
               [routerLink]="['/']"
@@ -29,7 +29,7 @@
             >
           </li>
 
-          <li class="nav-item me-3">
+          <li class="nav-item me-3 Mulish">
             <a
               class="nav-link text-dark"
               [routerLink]="['/about-us']"
@@ -38,7 +38,7 @@
             >
           </li>
 
-          <li class="nav-item me-3">
+          <li class="nav-item me-3 Mulish">
             <a
               class="nav-link text-dark"
               [routerLink]="['/services']"
@@ -47,7 +47,7 @@
             >
           </li>
 
-          <li class="nav-item me-3">
+          <li class="nav-item me-3 Mulish">
             <a
               class="nav-link text-dark"
               [routerLink]="['/project']"
@@ -55,17 +55,14 @@
               >Project</a
             >
           </li>
-
-          <li class="nav-item me-3">
-            <a
-              class="nav-link text-dark btn btn-danger"
-              role="button"
-              [routerLink]="['/contact-us']"
-              routerLinkActive="active"
-              >Contact Us</a
-            >
-          </li>
         </ul>
+        <a
+          class="nav-link text-dark Mulish btn p-2 btn-danger"
+          role="button"
+          [routerLink]="['/contact-us']"
+          routerLinkActive="active"
+          >Contact Us</a
+        >
       </div>
     </div>
   </nav>

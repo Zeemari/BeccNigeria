@@ -15,16 +15,16 @@
           "
         ></div>
         <div class="container cont">
-          <div class="ms-5">
-            <h1 class="mb-3 fs-2 animation">Projects Done</h1>
+          <div class="">
+            <h1 class="mb-3 fs-2 animation fw-bold Mulish">Projects Done</h1>
             <!-- BreadCrumb -->
-            <nav aria-label="breadcrumb" class="text-light animation ms-2">
+            <nav aria-label="breadcrumb" class="text-light animation ms-1">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                  <a [routerLink]="['/']" class="nav-link fs-5">Home</a>
+                  <a [routerLink]="['/']" class="nav-link fs-5 Mulish">Home</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
-                  <span class="text-light fs-5">Project</span>
+                  <span class="text-light fs-5 Mulish">Project</span>
                 </li>
               </ol>
             </nav>
@@ -38,11 +38,11 @@
 <!-- Equipment Proposed for the project Section -->
 <section class="bg-light p-2">
   <div class="container tbl-container">
-    <h3 class="fw-bold text-center mt-4 mb-5 underline">
+    <h3 class="fw-bold text-center mt-4 mb-5 Mulish underline">
       Equipment Proposed For the Project
     </h3>
     <div class="table-responsive">
-      <table class="table table-striped table-bordered mt-4">
+      <table class="table table-striped table-bordered mt-4 Mulish">
         <thead class="bg-secondary text-light">
           <tr>
             <th scope="col">Description (Type, Model, Make)</th>
@@ -252,9 +252,11 @@
 <!-- Experience Record -->
 <section class="bg-light p-2">
   <div class="container tbl-container">
-    <h3 class="fw-bold text-center mt-4 mb-5 underline">Experienced Record</h3>
+    <h3 class="fw-bold text-center mt-4 mb-5 Mulish underline">
+      Experience Record
+    </h3>
     <div class="table-responsive">
-      <table class="table table-striped table-bordered mt-4">
+      <table class="table table-striped table-bordered mt-4 Mulish">
         <thead class="bg-secondary text-light">
           <tr>
             <th scope="col">Nature of Works</th>
@@ -326,6 +328,81 @@
           </tr>
         </tbody>
       </table>
+    </div>
+  </div>
+</section>
+
+<!-- Projects done Section -->
+<section class="bg-dark p-1">
+  <div class="container">
+    <p class="mt-4 text-center Oleo">OUR PROJECTS</p>
+    <h3 class="text-center fw-bold Mulish mb-5">
+      See What We Have <br />
+      Completed Recently
+    </h3>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="true"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="../../../assets/images/IMG-20230102-WA0022.jpg"
+            class="w-100 h-100 img-size"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../../../assets/images/IMG-20230102-WA0021.jpg"
+            class="w-100 h-100 img-size"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../../../assets/images/IMG-20230102-WA0019.jpg"
+            class="w-100 h-100 img-size"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../../../assets/images/IMG-20230102-WA0020.jpg"
+            class="w-100 h-100 img-size"
+            alt="..."
+          />
+        </div>
+      </div>
     </div>
   </div>
 </section>

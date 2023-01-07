@@ -127,11 +127,15 @@
 }
 
 .height {
-  height: 250px;
+  height: 180px;
 }
 
 .button {
   border-radius: 15px;
+}
+
+.img-size {
+  object-fit: cover;
 }
 
 .about {
